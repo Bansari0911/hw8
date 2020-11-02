@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <title>Bansari's Example 4</title>
+  </head>
+  <body>
+    <h3>Sample Form</h3>
+    <form id="form_id">
+      <label>Name: </label>
+      <input name="name" /><br /><br />
+
+      <label>Email: </label>
+      <input name="email" /><br /><br />
+
+      <p>Payment Type:</p>
+      <input type="radio" name="payment" value="cash" />
+      <label>Cash</label><br />
+      <input type="radio" name="payment" value="Credit Card" />
+      <label>Creadit card</label><br />
+      <input type="radio" name="payment" value="Google Pay" />
+      <label>Google pay</label><br />
+      <input type="radio" name="payment" value="Apple Pay" />
+      <label>Apple pay</label><br /><br />
+
+      <input type="checkbox" name="promotion" value="On" />
+      <label>Sign me up for special promotions</label><br /><br />
+
+      <label>Preffered Location: </label>
+      <select name="location">
+        <option value="Los Angeles">Los Angeles</option>
+        <option value="Orange County">Orange County</option>
+        <option value="Riverside">Riverside</option>
+        <option value="San Diego">San Diego</option>
+      </select>
+
+      <br /><br />
+      <input id="submit" type="submit" value="Save" />
+      <input id="cancel" type="button" value="Cancel" />
+    </form>
+
+    <div id="formInfo"></div>
+
+    <script src="../js/ex4.js"></script>
+  </body>
+</html>

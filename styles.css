@@ -1,0 +1,32 @@
+body {
+  font-family: Calibri;
+}
+
+#paintings,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0 5px;
+}
+
+#paintings th {
+  background-color: lightgray;
+}
+
+#avatar {
+  height: 200px;
+  width: 200px;
+}
+
+#infoTable th {
+  background-color: lightgray;
+}
+
+#infoTable,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0 5px;
+}

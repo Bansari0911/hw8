@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <title>Bansari's Example 2</title>
+  </head>
+  <body>
+    <form id="form_id">
+      <label>Name: </label><br />
+      <input name="name" />
+      <h3>Countries:</h3>
+      <div id="country_container">
+        <div>
+          <p>Country 1:</p>
+          <label>name: </label>
+          <input name="countries[0][name]" />
+
+          <label>year: </label>
+          <input name="countries[0][year]" type="number" />
+        </div>
+      </div>
+
+      <a href="javascript:;" id="add-new-country">Add! new country</a>
+      <br />
+      <input id="submit" type="submit" value="Save" />
+    </form>
+    <script src="../js/ex3.js"></script>
+  </body>
+</html>
